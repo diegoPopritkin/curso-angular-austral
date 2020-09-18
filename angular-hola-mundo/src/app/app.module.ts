@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { SaludadorComponent } from './saludador/saludador.component';
+import { DestinoViajeComponent } from './destino-viaje/destino-viaje.component';
+import { ListaDestinosComponent } from './lista-destinos/lista-destinos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SaludadorComponent
+    SaludadorComponent,
+    DestinoViajeComponent,
+    ListaDestinosComponent
   ],
   imports: [
     BrowserModule
